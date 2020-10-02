@@ -14,6 +14,7 @@ Linux như trên:
  1. Download file: https://www.tenable.com/downloads/nessus
  2. Đăng ký lấy Active Code: https://zh-cn.tenable.com/products/nessus/nessus-essentials
  3. Vào:  https://plugins.nessus.org/offline.php lấy plugin + key nessus
+ https://drive.google.com/file/d/1ut7zHrupOAdLFhpYRXGzHTrSW7VScQBS/view?usp=sharing
  4. sudo /opt/nessus/sbin/nessuscli update all-2.0.tar.gz
  5. copy file plugin_feed_info.inc vào /opt/nessus/lib/nessus/plugins/plugin_feed_info.inc và opt/nessus/var/nessus/plugin_feed_info.inc
  6. chmod readonly 2 file .inc
