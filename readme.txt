@@ -16,6 +16,7 @@ Linux như trên:
  3. Vào:  https://plugins.nessus.org/offline.php lấy plugin + key nessus
  https://drive.google.com/file/d/1ut7zHrupOAdLFhpYRXGzHTrSW7VScQBS/view?usp=sharing
  nessuscli fetch --challenge
+ /opt/nessus/sbin/nessuscli fetch --register-offline nessus.license(Linux/Unix)
  
  4. sudo /opt/nessus/sbin/nessuscli update all-2.0.tar.gz
  5. copy file plugin_feed_info.inc vào /opt/nessus/lib/nessus/plugins/plugin_feed_info.inc và opt/nessus/var/nessus/plugin_feed_info.inc
